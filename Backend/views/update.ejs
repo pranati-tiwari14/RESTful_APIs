@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit your Post</title>
+    <link rel="stylesheet" href="/Index.css">
+
+</head>
+
+<body>
+    <h1>Instagram</h1>
+    <h3>Post id: <%= post.id %>
+    </h3>
+    <h4>Post username: <%= post.username %>
+    </h4>
+    <h4>Followers: <%=post.Followers%>
+    </h4>
+    <h4>Following: <%post.Following%>
+    </h4>
+    <form method="POST" action="/posts/<%=post.id%>?_method=PATCH">
+        Caption:<textarea rows="6" cols="35" name="Caption"><%=post.Caption%></textarea>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Posts</title>
+    <link rel="stylesheet" href="/Index.css">
+</head>
+
+<body>
+    <h1>Instagram</h1>
+    <h2>Thoughts, Captured and Shared!</h2>
+
+    <% for(let post of posts) { %>
+        <div class="posts">
+            <h3>@<%= post.username %>
+            </h3>
+            <h4>Followers:<%= post.Followers %>
+            </h4>
+            <h4>Following:<%= post.Following %>
+            </h4>
+            <p>Caption: <%= post.Caption %>
+            </p>
+            <a href="http://localhost:8080/posts/<%= post.id %>">See Post</a>
+            <br></br>
+            <a href="http://localhost:8080/posts/<%=post.id%>/edit">Update Post</a>
+            <br><br>
+            <form method="POST" action="/posts/<%=post.id%>?_method=DELETE">
+                <button>Delete Post</button>
+            </form>
+            <hr>
+        </div>
+        <% } %>
+            <hr>
+            <a href="http://localhost:8080/posts/new">New post</a>
+            <br>
+            <br>
+
+
+
+
+</body>
+
+</html>
