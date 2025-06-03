@@ -22,9 +22,9 @@
             </h4>
             <p>Caption: <%= post.Caption %>
             </p>
-            <a href="http://localhost:8080/posts/<%= post.id %>">See Post</a>
+            <a href="/posts/<%= post.id %>">See Post</a>
             <br></br>
-            <a href="http://localhost:8080/posts/<%=post.id%>/edit">Update Post</a>
+            <a href="/posts/<%=post.id%>/edit">Update Post</a>
             <br><br>
             <form method="POST" action="/posts/<%=post.id%>?_method=DELETE">
                 <button>Delete Post</button>
@@ -33,7 +33,7 @@
         </div>
         <% } %>
             <hr>
-            <a href="http://localhost:8080/posts/new">New post</a>
+            <a href="/posts/new">New post</a>
             <br>
             <br>
 
