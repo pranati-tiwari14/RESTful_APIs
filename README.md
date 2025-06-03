@@ -39,9 +39,17 @@ A simple full-stack web application inspired by Instagram’s core features. Bui
 - Open the project folder: cd your-repository
 - Open the HTML file in your browser.
 
+## Contributing
+If you'd like to contribute to this project, please follow these steps:
+
+- Fork the repository.
+- Create a new branch: git checkout -b feature/new-feature.
+- Make your changes and commit them: git commit -m 'Add new feature'.
+- Push to the branch: git push origin feature/new-feature.
+- Submit a pull request.
 
 
-Author: Pranati Tiwari
-GitHub: @pranati-tiwari14
-LinkedIn: https://www.linkedin.com/in/pranati-tiwari-b67500264 
+- Author: Pranati Tiwari
+- GitHub: @pranati-tiwari14
+- LinkedIn: https://www.linkedin.com/in/pranati-tiwari-b67500264 
 
