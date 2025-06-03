@@ -1,14 +1,3 @@
-# SPOTIFY CLONE
-
-## Description
-A simple music streaming platform using HTML and CSS.
-
-## Demo
-![Screenshot 1](./SSC1.png)
-![Screenshot 2](./SSC2.png)
-![Screenshot 3](./SSC3.png)
-![Screenshot 3](./SSC4.png)
-![Screenshot 3](./SSC5.png)
 
 # Mini Insta Posts App
 
@@ -19,7 +8,15 @@ A simple full-stack web application inspired by Instagram’s core features. Bui
 
 ---
 
-## 🧰 Tech Stack
+## Demo
+![Screenshot 1](./SSC1.png)
+![Screenshot 2](./SSC2.png)
+![Screenshot 3](./SSC3.png)
+![Screenshot 3](./SSC4.png)
+![Screenshot 3](./SSC5.png)
+
+
+## Tech Stack
 
 - Frontend: HTML, CSS
 - Backend: Node.js, Express.js, EJS
@@ -27,7 +24,7 @@ A simple full-stack web application inspired by Instagram’s core features. Bui
 - Package Manager: npm
 
 
-## 🚀 Features
+## Features
 
 - 📌 Create new posts with a title and description
 - 📝 Edit and update existing posts
