@@ -34,29 +34,6 @@ A simple full-stack web application inspired by Instagram’s core features. Bui
 
 ---
 
-## How to Run the Project
-
-### Backend (Express Server)
-```bash
-cd Backend
-npm install
-node index.js
-
-Visit: http://localhost:3000
-
-Frontend
-Just open Frontend/index.html in your browser (optional static page).
-
-gitignore
-To keep your repo clean, this project uses a .gitignore to exclude:
-
-bash
-Copy
-Edit
-Backend/node_modules/
-.env
-.log
-
 ## Installation
 - Clone the repository: git clone [https://github.com/your-username/your-repository.git](https://github.com/your-username/your-repository.git)
 - Open the project folder: cd your-repository
